@@ -20,12 +20,11 @@ import einops
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    #parser.add_argument("config",type=str) 
-    # parser.add_argument("--config",type=str, default='/home/yutang/Documents/sci/DADUN/configs/MIXST_SCI/mixst_sci.py')
-    # #parser.add_argument("--weights",type=str, default='/home/yutang/Documents/sci/DADUN/checkpoints/pde-d/PDE-D-9st_gray.pth')
-    # parser.add_argument("--weights",type=str, default='/home/yutang/Documents/sci/DADUN/checkpoints/pde-d/PDE-D-5st_gray.pth')
+    parser.add_argument("config",type=str) 
+    parser.add_argument("--config",type=str, default='./configs/MIXST_SCI/mixst_sci.py')
     parser.add_argument("--work_dir",type=str, default='./work_dirs')
-    parser.add_argument("--device",type=str,default="cuda:3")
+    parser.add_argument("--weights",type=str, default='./checkpoints/pde-d/PDE-D-5st_gray.pth')
+    parser.add_argument("--device",type=str,default="cuda:4")
     args = parser.parse_args()
     if not torch.cuda.is_available():
         args.device="cpu"
