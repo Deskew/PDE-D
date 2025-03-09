@@ -40,7 +40,7 @@ Specify the path of weight parameters, then launch 6 benchmark test in simulatio
 python tools/test.py configs/MIXST_SCI/mixst_sci.py --weights=checkpoints/pde-d/PDE-D-5st_gray.pth
 ```
 * --weights: path of weighted parameters
-  Notice: path of weighted parameters can be specified by --weight, also can be set by modifying checkpoints value in the configuration file, related weight can be download via [dropbox](https://www.dropbox.com/sh/96nf7jzabhqj4mh/AAB09QXrNGi_kujDDnWn6G32a?dl=0).
+  Notice: path of weighted parameters can be specified by --weight, also can be set by modifying checkpoints value in the configuration file, related weight can be download via [Google Drive](https://drive.google.com/drive/folders/1PWsXRfzLKuH0BeqjsLshVnx5JH_BvaHx?usp=sharing).
 
 
 ## Testing PDE-D on Real Dataset 
