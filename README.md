@@ -1,18 +1,8 @@
 # Towards Efficient Motion Video SCI via Progressive Degradation Estimation and Denoising
-This repo is the implementation of "[Towards Efficient Motion Video SCI via Progressive Degradation Estimation and Denoising]()".
+This repo is the implementation of "[Towards Efficient Motion Video Reconstruction using Deep Unfolding in Video Snapshot Compressed Imaging]()".
 ## Abstract
 Video snapshot compressive imaging (SCI)
 
-## Testing Result on Six Simulation Dataset
-|Dataset|Kobe |Traffic|Runner| Drop  |Aerial|Vehicle|Average|
-|:----:|:----:|:----: |:-----:|:----:|:----:|:----:|:----:|
-|PSNR  |:----:|:-----:|:-----:|:----:|:----:|:----:|:----:| 
-|SSIM  |:----:|:-----:|:-----:|:----:|:----:|:----:|:----:|
-
-## Multi Platform Running Time Analysis 
-|GTX 1080ti |RTX 3080 |RTX 3090 | RTX8000 | RTX A40|
-|:---------:|:------: |:-------:|:-------:|:------:|
-|:---------:|:-------:|:-------:|:-------:|:------:|
 
 ## Training PDE-D 
 Support multi GPUs and single GPU training efficiently. First download DAVIS 2017 dataset from [DAVIS website](https://davischallenge.org/), then modify *data_root* value in *configs/\_base_/davis.py* file, make sure *data_root* link to your training dataset path.
