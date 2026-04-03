@@ -50,7 +50,7 @@ Notice:
 ```
 @article{yin2026efficient,
   title={An efficient deep unfolding approach for Snapshot Compressed Imaging of Motion Videos},
-  author={Yin, Jianfu and Tao, Chenglong and Hu, Binliang and Wang, Yao and Wang, Quan},
+  author={Yin, Jianfu and Tao, Chenglong and Hu, Bingliang and Wang, Yao and Wang, Quan},
   journal={Pattern Recognition},
   pages={113554},
   year={2026},
