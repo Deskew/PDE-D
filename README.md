@@ -1,5 +1,5 @@
 # An efficient deep unfolding approach for Snapshot Compressed Imaging of Motion Videos
-This repo is the implementation of "[An efficient deep unfolding approach for Snapshot Compressed Imaging of Motion Videos]()".
+This repo is the implementation of "[An efficient deep unfolding approach for Snapshot Compressed Imaging of Motion Videos](https://doi.org/10.1016/j.patcog.2026.113554)".
 ## Abstract
 Video snapshot compressive imaging (SCI)
 
