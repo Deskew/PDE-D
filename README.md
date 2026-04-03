@@ -1,7 +1,7 @@
 # An efficient deep unfolding approach for Snapshot Compressed Imaging of Motion Videos
 This repo is the implementation of "[An efficient deep unfolding approach for Snapshot Compressed Imaging of Motion Videos](https://doi.org/10.1016/j.patcog.2026.113554)".
 ## Abstract
-Video snapshot compressive imaging (SCI)
+ideo snapshot compressed imaging (SCI) reconstruction faces challenges from inter-frame variations and temporal multiplexing artifacts. We propose a deep unfolding framework based on a Progressive Degradation Estimation and Denoising (PDE-D) backbone. Each stage consists of a Degradation-Estimation (DE) module and a Denoising (D) module, where ?degradation? refers to the reconstruction gap inherent in the ill-posed inversion. The DE module predicts a learnable residual correction to refine the 2D measurement and suppress non-uniform artifacts. The D module employs an Adaptive Spatio-Temporal Cooperation (ASTC) mechanism to enforce temporal coherence and detail restoration without explicit alignment, enhancing robustness to large motions. Evaluated on simulated and real-world grayscale benchmarks, our method outperforms state-of-the-art approaches in reconstruction accuracy, motion robustness, and computational efficiency.The source code is available at: https://github.com/Deskew/PDE-D.git
 
 
 ## Training PDE-D 
