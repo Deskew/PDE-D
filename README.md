@@ -1,5 +1,5 @@
-# Towards Efficient Motion Video SCI via Progressive Degradation Estimation and Denoising
-This repo is the implementation of "[Towards Efficient Motion Video Reconstruction using Deep Unfolding in Video Snapshot Compressed Imaging]()".
+# An efficient deep unfolding approach for Snapshot Compressed Imaging of Motion Videos
+This repo is the implementation of "[An efficient deep unfolding approach for Snapshot Compressed Imaging of Motion Videos]()".
 ## Abstract
 Video snapshot compressive imaging (SCI)
 
@@ -48,7 +48,14 @@ Notice:
 
 ## Citation
 ```
-
+@article{yin2026efficient,
+  title={An efficient deep unfolding approach for Snapshot Compressed Imaging of Motion Videos},
+  author={Yin, Jianfu and Tao, Chenglong and Hu, Binliang and Wang, Yao and Wang, Quan},
+  journal={Pattern Recognition},
+  pages={113554},
+  year={2026},
+  publisher={Elsevier}
+}
 
 ```
 ## Acknowledgement
